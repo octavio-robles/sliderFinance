@@ -1,4 +1,4 @@
-#' Calculate Rolling Market Regime
+#' Calculate Rolling Market Regime usbdisd
 #'
 #' @param x A tibble
 #' @param column The column variable to perform calculations
