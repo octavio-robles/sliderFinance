@@ -15,3 +15,5 @@ Imports:
     magrittr (>= 2.0.3),
     slider (>= 0.2.2),
     stats (>= 4.2.3)
+URL: https://github.com/octavio-robles/sliderFinance
+BugReports: https://github.com/octavio-robles/sliderFinance/issues
