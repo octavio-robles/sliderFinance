@@ -4,7 +4,7 @@
 \alias{calculate_rolling_zscore}
 \title{Calculate Rolling Zscore}
 \usage{
-calculate_rolling_zscore(x, column, lookback = 20)
+calculate_rolling_zscore(x, column, lookback = 20, column_name = zscore)
 }
 \arguments{
 \item{x}{A data tibble}
@@ -12,6 +12,8 @@ calculate_rolling_zscore(x, column, lookback = 20)
 \item{column}{The column variable to perform calculations}
 
 \item{lookback}{The lookback period}
+
+\item{column_name}{The Column's Output Name}
 }
 \value{
 A tibble

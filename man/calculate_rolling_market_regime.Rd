@@ -4,7 +4,12 @@
 \alias{calculate_rolling_market_regime}
 \title{Calculate Rolling Market Regime}
 \usage{
-calculate_rolling_market_regime(x, column, lookback = 100)
+calculate_rolling_market_regime(
+  x,
+  column,
+  lookback = 100,
+  column_name = market_regime
+)
 }
 \arguments{
 \item{x}{A tibble}
@@ -12,6 +17,8 @@ calculate_rolling_market_regime(x, column, lookback = 100)
 \item{column}{The column variable to perform calculations}
 
 \item{lookback}{The lookback period}
+
+\item{column_name}{The Column's Output Name}
 }
 \value{
 A tibble

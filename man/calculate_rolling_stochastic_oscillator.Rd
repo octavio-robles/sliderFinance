@@ -4,7 +4,12 @@
 \alias{calculate_rolling_stochastic_oscillator}
 \title{Calculate Rolling Stochastic Oscillator}
 \usage{
-calculate_rolling_stochastic_oscillator(x, column, lookback = 14)
+calculate_rolling_stochastic_oscillator(
+  x,
+  column,
+  lookback = 14,
+  column_name = stochastic_oscillator
+)
 }
 \arguments{
 \item{x}{A tibble}
@@ -12,6 +17,8 @@ calculate_rolling_stochastic_oscillator(x, column, lookback = 14)
 \item{column}{The column variable to perform calculations}
 
 \item{lookback}{The lookback period}
+
+\item{column_name}{The Column's Output Name}
 }
 \value{
 A tibble

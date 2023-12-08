@@ -8,4 +8,16 @@
 \description{
 A collection of Rolling Financial Functions using SLider Use four spaces when indenting paragraphs within the Description.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/octavio-robles/sliderFinance}
+  \item Report bugs at \url{https://github.com/octavio-robles/sliderFinance/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Octavio Robles \email{octrobles@yahoo.com.mx}
+
+}
 \keyword{internal}
